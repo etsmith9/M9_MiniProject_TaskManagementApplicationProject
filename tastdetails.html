@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Task Management Solutions!</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <style>
+            .header {    
+                background: url('notebook.jpg') no-repeat center center/cover;
+                height: 100vh;
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+                text-align: center;
+                color: white;
+                padding-bottom: 10px;
+            }
+            .header h1 {
+                font-size: 3rem;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: bold;
+            }
+            .header-text {
+                background-color: rgba(0, 0, 0, 0.7); 
+                padding: 20px;
+                display: inline-block; 
+                border-radius: 10px; 
+            }
+        </style>
+    </head>
+<body>
+    <header id="home" class="jumbotron-fluid header">  <!--Task 1. Create a jumbotron-->
+        <div class="container text-center">
+            <div class="header-text">
+                <h1>Welcome to GTD</h1>
+                <p>Simplify task management and get things done! </p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!--Task 1. nav bar-->
+        <a class="container-fluid"> GTD!</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="navbar-nav">
+                    <a class="nav-link" href="mini.html">Home</a>  
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="taskdashboard.html">Task Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="taskdetails.html">Task Details</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="taskcreation.html">Task Creation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Register.html">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+</nav>
+
+
+<div id="services" class="container mt-4 mb-5">
+    <h2 class="mb-4 text-center">Our Services:</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="Check.webp" class="card-img-top mx-auto" alt="Outsourced IT" style="width:100px;">
+                <div class="card-body">
+                    <h5 class="card-title">Project Management</h5>
+                    <p class="card-text">Stay in sync on work with a single shared hub
+                        Keep teams accountable by organizing projects and tasks in one place. Give everyone visibility into the work they need to do and the steps to get there.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="Check.webp" class="card-img-top mx-auto" alt="IT Consulting" style="width:100px;">
+                <div class="card-body">
+                    <h5 class="card-title">Workflows and automation</h5>
+                    <p class="card-text">Build any workflow, no matter how complex 
+                        Create custom workflows and automations—no coding required. It has never been easier to scale reliable, error-proof processes across your organization.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="Check.webp" class="card-img-top mx-auto" alt="Cloud Services" style="width:100px;">
+                <div class="card-body">
+                    <h5 class="card-title">Resource Management</h5>
+                    <p class="card-text">Adjust resources to keep work on track
+                        Create long-term plans that align resources and incoming work with goals. When blockers threaten a projects progress, rebalance tasks without missing a beat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <section id="aboutus" class="container mt-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h2>What sets GTD apart</h2>
+                <p>More clarity and accountability. Connect strategic goals to the teams that help achieve them. See progress in real time, update stakeholders, and keep the company on track. </div>
+                <p>Scale with enterprise-grade security
+                    Ensure your company's data is completely secure and that you are in compliance with the latest standards.</p>
+                <p>The worlds top companies trust GTD.</p>
+                    <div class="col-md-4">
+                <h3>Why Choose Us?</h3>
+                <ul>
+                    <li>Comprehensive technical support</li>
+                    <li>Product discounts</li>
+                    <li>Increased efficiency</li>
+                </ul>
+                <p>Please contact us by filling out the form below.</li></p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="container mt-5">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="mb-3">
+                <label for="service-interest" class="form-label">Would you like to contact us?</label>
+                <textarea id="service-interest" name="service-interest" class="form-control" rows="4" placeholder="Share the service you are interested in here:"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="user-email" class="form-label">Email:</label>
+                <input type="email" id="user-email" name="user-email" class="form-control" placeholder="Enter your Email" required>
+            </div>
+            <button type="reset" class="btn btn-secondary">Reset</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+    
+    <footer class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <h4>Contact Information</h4>
+                <p>Email: contact@gtd.com</p>
+                <p>Phone: (555) 555-5555</p>
+                <p>Address: 123 Main Street, NJ</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <h4>Follow Us</h4>
+                <p><a href="https://www.facebook.com/">Facebook</a> | <a href="https://x.com/home?lang=en">Twitter</a> | <a href="https://www.linkedin.com/feed/">LinkedIn</a></p>
+            </div>
+            <div class="col-md-4 text-center">
+                <h4>Newsletter Signup</h4>
+                <form>
+                    <input type="email" class="form-control mb-2" placeholder="Enter your email">
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
+  
